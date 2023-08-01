@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-31T14:44:45.900Z",
+        "before": [
+          {
+            "result": {
+              "duration": 324056300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Solutions.Hooks.InitiateExtentReport(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "login successfull",
+        "description": "",
+        "id": "admin-login-successfull;login-successfull;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1201225200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Solutions.Hooks.CloseExtentReports(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11781830300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login home page",
+            "match": {
+              "location": "Solutions.definitions.user_on_login_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9612196000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"ram\" \u0026 \"abcd\"\u0026\"user36\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ram\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"user36\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Solutions.definitions.user_enters(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on loginbutton",
+            "match": {
+              "location": "Solutions.definitions.user_clicks_on_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420347200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on profile page",
+            "match": {
+              "location": "Solutions.definitions.user_on_profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "admin login successfull",
+    "description": "",
+    "id": "admin-login-successfull",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
